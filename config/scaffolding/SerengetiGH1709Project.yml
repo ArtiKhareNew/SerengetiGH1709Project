@@ -24,6 +24,25 @@ packages:
   gitUrl: https://github.com/ArtiKhareNew
   gitUsername: ArtiKhareNew
   gitBranch: main
+services:
+- serviceName: project.serengetigh1709.integrations:gitlabfs
+  packages:
+  - name: SerengetiGH1709Project
+    version: "1.0"
+  - name: DivisionPackage
+    version: "5.0"
+  - name: AddPublicService
+    version: "6.0"
+  - name: OpenWeatherClient
+    version: "1.0"
+- serviceName: AddPublicService:addpublicService
+  packages:
+  - name: AddPublicService
+    version: "6.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1070
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
