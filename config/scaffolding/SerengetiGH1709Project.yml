@@ -12,6 +12,10 @@ packages:
   gitUrl: https://gitlab.com/ArtiKhareGitlab
   gitUsername: ArtiKhareGitlab
   gitBranch: master
+- name: OpenWeatherClient
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: public
+  wpmVersion: latest
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbc.SAP TxStore Pool.spyparms: SpyAttributes=(log=(file)logs/spy/SAP_TxStore_Pool.log;logTName=yes;timestamp=yes)
